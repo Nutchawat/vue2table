@@ -32,7 +32,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Vue Hrmstable',
+      msg: 'Vue2 Table',
       columns: mockFields,
       data: {
         total: mockTotal,

@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <div class="table-hrms table-main">
+  <div class="vue2table table-main">
     <table>
       <thead>
         <tr>
@@ -295,7 +295,7 @@ export default {
 
 <style lang="scss">
 /*table*/
-.table-hrms {
+.vue2table {
     .panel-button-control {
         float: left;
         background-color: #e6e6e6;
