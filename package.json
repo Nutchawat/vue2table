@@ -1,0 +1,31 @@
+{
+  "name": "Nutchawat Ploywattanawong @nutchawat/vue2table",
+  "version": "2.0.1",
+  "description": "",
+  "main": "vue2table.vue",
+  "directories": {
+    "example": "example"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nutchawat/vue2table.git"
+  },
+  "keywords": [
+    "vuejs2",
+    "vuex",
+    "hrms",
+    "table"
+  ],
+  "author": "Nutchawat Ploywattanawong <pnutchaw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nutchawat/vue2table/issues"
+  },
+  "homepage": "https://github.com/Nutchawat/vue2table#readme"
+}
