@@ -1,7 +1,7 @@
 Vue2table
 =========
 
-Generated table for vuex feature
+Generated table for vue^2.0.0
 
 ## Required
 
