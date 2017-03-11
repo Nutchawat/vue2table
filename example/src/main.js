@@ -2,7 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import Vuex from 'vuex'
+import 'font-awesome/css/font-awesome.min.css'
 
 Vue.config.productionTip = false
 

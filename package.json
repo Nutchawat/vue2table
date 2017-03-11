@@ -16,9 +16,16 @@
     "type": "git",
     "url": "git+https://github.com/Nutchawat/vue2table.git"
   },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2"
+  },
   "keywords": [
     "vuejs2",
-    "vuex",
     "table"
   ],
   "author": "Nutchawat Ploywattanawong <pnutchaw@gmail.com>",
