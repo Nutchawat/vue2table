@@ -74,7 +74,37 @@ export default {
 ## Usage
  
 ```js 
-  <vue2table :columns="columns" :data="data" />
+<vue2table :columns="columns" :data="data" />
+...
+
+...
+<script>
+export default {
+  ...
+  data () {
+    return {
+      columns: [{
+        key: 'test1',
+        name: 'Test1'
+      }, {
+        key: 'test2',
+        name: 'Test2'
+      }],
+      data: {
+        total: 2,
+        rows: [{
+          test1: 'Hello',
+          test2: 'World'
+        }, {
+          test1: 'Foo',
+          test2: 'Bar'
+        }]
+      }
+    }
+  }
+  ...
+}
+</script>
 ```
 
 ## Props
