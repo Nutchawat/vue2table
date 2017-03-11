@@ -52,7 +52,7 @@ import vue2table from 'vue2table'
 ...
 
 ...
-Vue.component('vue2table', Vue2table)`
+Vue.component('vue2table', vue2table)`
 ...
 ```
 
@@ -80,17 +80,17 @@ export default {
 ## Props
 
   - columns: array, required, default [column]
-      column.key: string, required, default ''
-      column.name: string, required, default ''
-      column.class: string, optional, ex. 'align-center',
-      column.style: string, optional, ex. 'min-width: 100px;',
-      column.inlineType: string, optional ('text', 'textarea', 'select'),
-      column.headerRow: number, optional, default 1
-                        description: 1, 2, 3... for display at first/second/third of header row respectively
-      column.colspan: number, optional, default 1
-                      description: 1, 2, 3... for display total one, two, three column at column.headerRow
-      column.rowspan: number, optional,
-                      description: 1, 2, 3... for display total one, two, three row count from column.headerRow
+      - column.key: string, required, default ''
+      - column.name: string, required, default ''
+      - column.class: string, optional, ex. 'align-center',
+      - column.style: string, optional, ex. 'min-width: 100px;',
+      - column.inlineType: string, optional ('text', 'textarea', 'select'),
+      - column.headerRow: number, optional, default 1
+                          description: 1, 2, 3... for display at first/second/third of header row respectively
+      - column.colspan: number, optional, default 1
+                        description: 1, 2, 3... for display total one, two, three column at column.headerRow
+      - column.rowspan: number, optional,
+                        description: 1, 2, 3... for display total one, two, three row count from column.headerRow
   - maxRowspan: number, optional, default 1
   - data: object, required, default { total: 0,rows: []}
   - page: number, optional, default 1
